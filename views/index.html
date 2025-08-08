@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saumodip Banerjee | Full Stack Developer</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo">
+                <span class="logo-text">HOME</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about#bio">About</a></li>
+                <li><a href="/projects#featured">Projects</a></li>
+                <li><a href="/contact#connect">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="hero section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate-on-scroll">Hi, I'm <span class="highlight">Saumodip Banerjee</span></h1>
+                <h2 class="animate-on-scroll">Full Stack Developer | AI-ML Explorer | Cybersecurity Enthusiast</h2>
+                <p class="animate-on-scroll">Building innovative solutions with modern web technologies and machine learning</p>
+                <div class="animate-on-scroll">
+                    <a href="/projects#featured" class="btn">Explore My Work</a>
+                    <a href="/contact#connect" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-image animate-on-scroll">
+                    <img src="/images/profile.jpg" alt="Saumodip Banerjee">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Saumodip Banerjee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+    <script>
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
